@@ -1,72 +1,93 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Yiming Gu's First Web Page :)</title>
-        <style type="text/css">
-            *{ border: thin black solid;
-               padding: 4px; 
-            }
-        </style>
-    </head>
-    <body>
-        
-        <h1 align="center">Welcome to Samuel Gu's Website!!!</h1>
-        <h1><img src="/picture/logo.JPG" hight="60" width="90">tttt</h1>
-        <h2 style="text-align:center">顾义明</h2>
-        <h3 align="right">2017/12/13</h3>
-        <p align="center">Hello World!</p>
-        <hr size=30 width="95%" color="#CC6600">
-                <hr size=30>
-        <p><b>X</b><sup>2</sup>+Y</p>
-   
-        <h1 id="demo1">我的第一张网页</h1>
-
-        <img src="/picture/logo.jpg" alt="dump logo" hight="120" width="180">
-        <script>
-            document.getElementById("demo1").innerHTML="aaabbbcc";
-
-            document.write("<h1>To see what happen!</h1>");
-        </script>
-        
-        <button type="button" onclick="alert('Ha Ha')">Try here</button><br/>
-        
-        <div>
-        <a href="http://www.w3school.com.cn" title="看我的"><b><i>This is a link</i></b></a>
-        <a href="Profile.html" title="换成图片" target="_blank"><img src="/picture/logo.JPG" hight="60" width="120"></a>
-        <a href="#JUMPTO" target="_blank" title="Open in new window">JUMP DOWN</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/css/site.css">
+    <!--
+    <script type="text/javascript" src="SG1.js"></script>
+    -->    
+    <title>Samuel</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head-bar">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-left">Yiming <span class="name-color">GU</span></h1>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <pre>T  6  7    T 
-        test</pre>
-        <code> <> Y 8 8 8 
-         55   Y</code>
-        <br />
-        <kbd> UU UU   UUU</kbd>
-        <ins>TTTT</ins>
-        <del>OOoo</del><br />
-  
-        <button type="button" onclick="writefunction()">Over write page!!!</button><br/>
-            
-        <script src="SG1.js"></script>
-        
-        <footer>
-        <p>I have won!</p>
-        </footer>
-        
-        <p>ooo</p>
-            <p><b>oo</b>ooo</p>
-            <hr />
-            <p><em>oo</em><i>oo</i><strong>oo</strong>ooo</p>
-        <section>
-            <code>"<h1>Menu1</h1>"</code>    
-        </section>
-        <section>
-            <h1>Menu2</h1>    
-        </section>
-            
-            <p><time datetime="2011-1-1">New Year Day</time></p>
-        <h2 id="JUMPTO">Jump to here!</h2>
-            
-            <audio src="Meida/LOVE.mp3" autoplay loop controls>
-    </body>
+    </header>
+    <section class="container">
+        <div class="profile-card">
+            <div class="profile-card__header">
+                <div class="row"> 
+                    <div class="col">
+                        <div class="profile-card__photo--wrapper">
+                            <img src="./public/img/SG.jpg" alt="Samuel Gu">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="profile-card__head--info">
+                            <div class="profile-card__head--info-name">
+                                <h2>Samuel Gu</h2>
+                            </div>
+                            <div class="profile-card__head--info-title">
+                                    <p>Web Developer</p>
+                            </div>
+                        </div>
+                        <div class="profile-card__head--link">
+                            <a href="">Linkedin</a>
+                            <a href="">Fackbook</a>
+                            <a href="">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card__body">
+                <div class="row">
+                    <div class="col">
+                        <div class="about_me">
+                            <h3>About <span>Me</span></h3>
+                        </div>
+                        <p>Hi, My name is Samuel.<br>
+                            Hi, My name is Samuel.<br>
+                            Hi, My name is Samuel.<br>
+                            Hi, My name is Samuel!!!.<br>
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="profile_list">
+                            <ul class="profile_list--Content">
+                                <li>
+                                    <span class="title">Age</span>
+                                    <span class="value">35</span>
+                                </li>
+                                <li>
+                                    <span class="title">Residence</span>
+                                    <span class="value">Brisbane</span>
+                                </li>
+                                <li>
+                                    <span class="title">Address</Address></span>
+                                    <span class="value">7/2 Barramul Street, Bulimba, QLD</span>
+                                </li>
+                                <li>
+                                    <span class="title">Mobile</span>
+                                    <span class="value">0435 842 801</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
 </html>
