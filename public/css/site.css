@@ -36,6 +36,9 @@ a, a:hover{
     text-decoration: none;
 }
 
+.head-bar__menu{
+  overflow: hidden;
+}
 .head-bar__menu li{
     float: left;
     list-style: none;
@@ -43,7 +46,9 @@ a, a:hover{
     color:white;
     padding: 15px;
 }
-
+.head-bar__menu .btn{
+  float: left;
+}
 
 .head-bar{
     background: #2eca7f;
@@ -542,3 +547,10 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #2eca7f;
   }
   /* /Form controls */
+
+  .test-show-link-content{
+    display: none;
+    margin: 0;
+    background-color: #2eca7f;
+  }
+
