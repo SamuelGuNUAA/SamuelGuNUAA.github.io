@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.Btn_FlexLayout{
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Icon_Layout{
+  padding-top: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Btn_FlexLayout h3{
+  color: rgba(0, 0, 0, 0.65);
+  padding-left: 30px;
+}
+.overwrite_anticon--homepage{
+  font-size: 40px;
+  padding: 100px 30px 40px 40px;
+}
+
+.loaction-home{
+  position: relative;
+  text-align: right;
+}
+
+a{
+  color: grey;
+}
+a:hover{
+  color: black;
+}
+
+.aboutme_style{
+
+  width: 75%;
+}
+
+h2{
+  padding-left: 5%;
+}
+
+.aboutme_style p{
+  padding-left: 10%;
+  font-size: 130%;  
+}
+
+.home_skill-desc{
+  padding: 5px 50px 0 10px;
+  color: black;
+}
+
+.center-location{
+  text-align: right;
+  font-size: 150%;
+  padding: 70px;
+}
+
+.resume_timeline-layout{
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.resume_timeline-layout .ant-card-cover{
+  width: 20%;
+  float: right;
+  padding-top: 10px;
+}
+
+.contact_googlemap-layout{
+  padding-top: 60px;
+}
+
+.Contact_h1-layout{
+  padding-bottom: 40px;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #000;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
