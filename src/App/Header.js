@@ -44,8 +44,8 @@ export default class Header extends Component{
                         <Icon type="idcard" />Contact
                         <Link to="/contact"></Link>
                     </Menu.Item>
-                    <Menu.Item key="Download" style={{float:'right'}}>
-                        <Icon type="login" />download
+                    <Menu.Item key="download" style={{float:'right'}}>
+                        <Icon type="login" />Download
                         <a href={imgURL_resume} download="aaa"></a>
                     </Menu.Item>
                 </Menu>
